@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, molestiae.</h1>
+        <button class="btn btn-dark" onclick="textChange()"> text-change</button>
+        <h2 id="h2"> Lorem ipsum dolor sit.</h2>
+
+        <!-- date -->
+        <h1  class="text-info">please time show the any time</h1>
+        <button class="btn btn-dark" onclick="showDate()">show date</button>
+        <h2 id="dt">date</h2>
+        <hr>
+        <h2>click the button to on/of the bulb </h2>
+        <button onclick="bulbOn()" type="button" class="btn btn-primary">on</button>
+
+        <button onclick="bulbOff()" type="button" class="btn btn-danger">off</button>
+        <img id="img" src="images/pic_bulboff.gif" alt="">
+        <hr>
+        <!-- color change -->
+        <h2>click the button to change the color</h2>
+        <button onclick="colorChange()" type="button" class="btn btn-danger">color change</button>
+        <h2 id="cc">i am change</h2>
+        <hr>
+        <!-- show/hide -->
+        <h2>click the button to show/hide the text</h2>
+        <button onmouseover="textShow()" type="button" class="btn btn-dark">Show</button>
+        <button onmouseover="textHide()" type="button" class="btn btn-primary">Hide</button>
+        <h2 id="sh">Lorem ipsum dolor sit amet.</h2>
+        <hr>
+
+        <h2>click the button to calculate the values</h2>
+        <button type="button" class="btn btn-primary" onclick="dataAddition()">sum</button>
+        <h2 id="ss">output</h2>
+  </div>
+    
+    <script src="jss/bootstrap.bundle.min.js"></script>
+    <script src="jss/script.js"></script>
+</body>
+</html>
